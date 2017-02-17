@@ -1,0 +1,7 @@
+MeatyIntent hello
+HowToCook how do i cook {meat}
+CookByWeight how long should i cook {meat} for
+CookByWeight how long should i cook {weight} {weightunit} of {meat} for
+CookByWeight how long should i cook a {weight} {weightunit} of {meat} for
+BeefType i like my meat {cooked}
+BeefType i like my meat cooked {cooked}

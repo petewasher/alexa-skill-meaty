@@ -1,0 +1,50 @@
+{
+  "intents": [
+    {
+      "intent": "MeatyIntent",  "slots":[]
+    },
+    {
+      "intent": "HowToCook", "slots":[
+        {
+          "name":"meat",
+          "type":"MEATY_MEAT"
+        }
+      ]
+    },
+    {
+      "intent": "CookByWeight", "slots":[
+        {
+          "name":"meat",
+          "type":"MEATY_MEAT"
+        },
+        {
+          "name":"weight",
+          "type":"AMAZON.US_STATE"
+        },
+        {
+          "name":"weightunit",
+          "type":"MEATY_UNIT"
+        }
+      ]
+    },
+    {
+      "intent": "BeefType",
+      "slots":[
+        {
+          "name":"cooked",
+          "type":"MEATY_COOKED"
+        }
+      ]
+    },
+
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
